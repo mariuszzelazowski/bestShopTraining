@@ -37,7 +37,7 @@ html, body {
 /*header*/
 
 .header {
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0 3px 6px #00000029;
     position: fixed;
     top: 0;
     left: 0;
@@ -128,27 +128,27 @@ html, body {
     align-items: center;
 }
 
-/*section why-us*/
+/*why-us*/
 
-.section-why-us {
+.section-stats {
     margin-top: 80px;
     font-family: var(--font-first);
 }
 
-.section-why-us-title {
+.section-stats-title {
     margin-bottom: 50px;
     font-size: 42px;
     text-align: center;
 }
 
-.why-us-list {
+.stats-list {
     margin: 160px 0;
     display: flex;
     justify-content: center;
     gap: 280px;
 }
 
-.why-us-article {
+.stats-article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +156,7 @@ html, body {
     position: relative;
 }
 
-.why-us-shape-first {
+.stats-shape-first {
     width: 63px;
     height: 63px;
     background: var(--color-redish);
@@ -166,7 +166,7 @@ html, body {
     left: 20px;
 }
 
-.why-us-shape-second {
+.stats-shape-second {
     width: 63px;
     height: 63px;
     background: var(--color-primary);
@@ -176,7 +176,7 @@ html, body {
     left: 20px;
 }
 
-.why-us-shape-third {
+.stats-shape-third {
     width: 63px;
     height: 63px;
     background: var(--color-green);
@@ -186,7 +186,7 @@ html, body {
     left: 10px;
 }
 
-.why-us-numbers {
+.stats-numbers {
     color: var(--color-black);
     font-size: 20px;
     text-align: center;
@@ -195,54 +195,59 @@ html, body {
     margin-bottom: 20px;
 }
 
-.why-us-numbers::after {
+.stats-numbers::after {
     margin-top: 30px;
     content: "+";
     font-weight: bolder;
     font-size: 17px;
 }
 
-.why-us-text-first {
+.stats-text-first {
     padding-bottom: 15px;
 }
 
-.why-us-text-first, .why-us-text-third {
+.stats-text-first, .stats-text-third {
     font-size: 17px;
 }
 
-.why-us-text-second {
+.stats-text-second {
     font-size: 16px;
 }
 
-.why-us-text-first, .why-us-text-second, .why-us-text-third {
+.stats-text-first, .stats-text-second, .stats-text-third {
     margin-top: 5px;
     color: var(--color-grey);
     text-align: center;
     width: 130px;
 }
 
-.why-us-img {
+.stats-img {
     z-index: 10000;
 }
 
-.why-us-img-first {
+.stats-img-first {
     position: absolute;
     top: -81px;
     left: 55px;
 }
 
-.why-us-img-second {
+.stats-img-second {
     position: absolute;
     top: -70px;
 }
 
-.why-us-img-third {
+.stats-img-third {
     position: absolute;
     top: -75px;
     left: 45px;
 }
 
-/*section benefits*/
+/*benefits section*/
+
+.section-benefits .container {
+    width: 1124px;
+    margin: 0 auto;
+}
 
 .section-benefits {
     background: var(--color-light-grey);
@@ -261,38 +266,38 @@ html, body {
     border-radius: 5px;
 }
 
-.box-first-left {
+.benefits-box-first-left {
     padding-left: 80px;
     width: 500px;
     height: 188px;
 }
 
-.box-first-title {
+.benefits-box-first-title {
     font-size: 36px;
     font-family: var(--font-first);
 }
 
-.box-first-text {
+.benefits-box-first-text {
     margin-top: 30px;
     font-size: 16px;
     font-family: var(--font-second);
     line-height: 22px;
 }
 
-.box-first-underline {
+.benefits-box-first-underline {
     margin-top: 45px;
     width: 328px;
     height: 4px;
     background: var(--color-redish);
 }
 
-.box-first-right {
-    margin-right: 600px;
+.benefits-box-first-right {
+    margin-right: 500px;
     height: 322px;
     position: relative;
 }
 
-.box-first-img {
+.benefits-box-first-img {
     margin-top: 90px;
     width: 387px;
     height: 219px;
@@ -301,7 +306,7 @@ html, body {
     z-index: 10000;
 }
 
-.box-first-shape {
+.benefits-box-first-shape {
     width: 200px;
     height: 200px;
     background: var(--color-redish);
@@ -325,13 +330,13 @@ html, body {
     border-radius: 5px;
 }
 
-.box-second-left {
+.benefits-box-second-left {
     width: 500px;
     height: 188px;
     position: relative;
 }
 
-.box-second-img {
+.benefits-box-second-img {
     margin-top: 30px;
     width: 426px;
     height: 328px;
@@ -340,7 +345,7 @@ html, body {
     z-index: 10000;
 }
 
-.box-second-shape {
+.benefits-box-second-shape {
     width: 320px;
     height: 320px;
     background: var(--color-primary);
@@ -350,26 +355,26 @@ html, body {
     left: 10px;
 }
 
-.box-second-right {
+.benefits-box-second-right {
     width: 416px;
     height: 322px;
 }
 
-.box-second-title {
+.benefits-box-second-title {
     margin-top: 60px;
     width: 300px;
     font-size: 36px;
     font-family: var(--font-first);
 }
 
-.box-second-text {
+.benefits-box-second-text {
     margin-top: 30px;
     font-size: 16px;
     font-family: var(--font-second);
     line-height: 22px;
 }
 
-.box-second-underline {
+.benefits-box-second-underline {
     margin-top: 45px;
     width: 328px;
     height: 4px;
@@ -387,55 +392,358 @@ html, body {
     border-radius: 5px;
 }
 
-.box-third-left {
+.benefits-box-third-left {
     padding-left: 80px;
     padding-right: 35px;
-    width: 770px;
+    width: 623px;
     height: 100%;
     background: var(--color-white);
     border: 1px solid #E8E9ED;
     border-radius: 5px;
 }
 
-.box-third-title {
+.benefits-box-third-title {
     margin-top: 80px;
     width: 400px;
     font-size: 36px;
     font-family: var(--font-first);
 }
 
-.box-third-text {
+.benefits-box-third-text {
     margin-top: 30px;
     font-size: 16px;
     font-family: var(--font-second);
     line-height: 22px;
 }
 
-.box-third-underline {
+.benefits-box-third-underline {
     margin-top: 45px;
     width: 328px;
     height: 4px;
     background: var(--color-green);
 }
 
-.box-third-right {
+.benefits-box-third-right {
     background: var(--color-green);
-    width: 500px;
+    width: 440px;
     height: 100%;
     border: 1px solid #E8E9ED;
     border-radius: 5px;
 }
 
-.box-third-img {
+.benefits-box-third-img {
     width: 296px;
     height: 208px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 110px;
 }
 
-/*cdn*/
+/*pricing section*/
 
+.section-pricing {
+    margin-bottom: 600px;
+    background: var(--color-white);
+}
 
+.section-pricing .container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.section-pricing-title {
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-size: 36px;
+    font-family: var(--font-first);
+    color: var(--color-black);
+    text-align: center;
+}
+
+.pricing-box-first {
+    width: 372px;
+    height: 461px;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+.pricing-box-first-title {
+    margin-top: 34px;
+    font-size: 20px;
+    font-family: var(--font-first);
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.price-box-first {
+    font-family: var(--font-second);
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 46px;
+    text-align: center;
+    color: var(--color-redish);
+    font-weight: lighter;
+}
+
+.pricing-box-first-button {
+    padding: 16px 57px;
+    width: 150px;
+    height: 50px;
+    background: var(--color-redish);
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    top: 435px;
+    left: 110px;
+}
+
+.pricing-box-second {
+    width: 405px;
+    height: 500px;
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+    border-radius: 18px;
+    position: absolute;
+    top: -20px;
+    left: 475px;
+}
+
+.pricing-box-second-title {
+    margin-top: 34px;
+    font-size: 21px;
+    font-family: var(--font-first);
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.price-box-second {
+    font-family: var(--font-second);
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 46px;
+    text-align: center;
+    color: var(--color-primary);
+    font-weight: lighter;
+    position: relative;
+}
+
+.price-box-second::after {
+    content: "Limited offer";
+    font-size: 12px;
+    font-family: var(--font-second);
+    color: var(--color-black);
+    font-weight: bold;
+    position: absolute;
+    top: 65px;
+    left: 165px;
+}
+
+.pricing-box-second-button {
+    padding: 16px 65px;
+    width: 165px;
+    height: 50px;
+    background: var(--color-primary);
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    top: 470px;
+    left: 130px;
+}
+
+.pricing-box-third {
+    width: 372px;
+    height: 461px;
+    border: 1px solid var(--color-green);
+    border-radius: 18px;
+    position: absolute;
+    top: 0;
+    left: 940px;
+}
+
+.pricing-box-third-title {
+    margin-top: 34px;
+    font-size: 20px;
+    font-family: var(--font-first);
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.price-box-third {
+    margin-bottom: 80px;
+    font-family: var(--font-second);
+    margin-top: 20px;
+    font-size: 46px;
+    text-align: center;
+    color: var(--color-green);
+    font-weight: lighter;
+    position: relative;
+}
+
+.pricing-box-third-button {
+    padding: 16px 57px;
+    width: 150px;
+    height: 50px;
+    background: var(--color-green);
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    top: 435px;
+    left: 110px;
+}
+
+.price-box-third:after {
+    content: "Limited offer";
+    font-size: 12px;
+    font-family: var(--font-second);
+    color: var(--color-black);
+    font-weight: bold;
+    position: absolute;
+    top: 65px;
+    left: 150px;
+}
+
+.pricing-box-el {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-box-second-el {
+    margin-top: 30px;
+}
+
+.pricing-box-el-text {
+    font-family: var(--font-second);
+    padding-left: 10px;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.pricing-box-buttons-text {
+    font-size: 13px;
+    font-family: var(--font-second);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+/*contact section*/
+
+.section-contact .container{
+    width: 896px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 120px;
+    padding-bottom: 80px;
+}
+
+.contact-box-title {
+    width: 344px;
+    font-size: 49px;
+    color: var(--color-black);
+    font-family: var(--font-first);
+}
+
+.contact-box-text {
+    margin-top: 22px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: var(--color-black);
+    font-family: var(--font-second);
+}
+
+.contact-box-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box-el {
+    font-family: var(--font-second);
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+
+.contact-box-el-text {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    appearance: none;
+}
+
+.form-label {
+    margin-top: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-family: var(--font-second);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.form-input {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-grey);
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox input {
+    margin-right: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #95989A;
+    appearance: none;
+    cursor: pointer;
+}
+
+.checkbox span {
+    font-family: var(--font-second);
+    font-size: 12px;
+    color: #707070;
+    line-height: 1.2;
+}
+
+.checkbox input:checked {
+    background: url("../assets/Checkmark.svg") center no-repeat;
+}
+
+.form-button {
+    margin-top: 30px;
+    margin-left: 240px;
+    width: 226px;
+    height: 50px;
+    background: var(--color-primary);
+    font-family: var(--font-second);
+    border-radius: 35px;
+    border: none;
+    color: var(--color-white);
+    font-size: 13px;
+    font-weight: bold;
+}
 
 /*footer*/
 
@@ -443,7 +751,7 @@ html, body {
     width: 100%;
     height: 89px;
     background: var(--color-light-grey);
-    box-shadow: 0px -5px 40px #00000029;
+    box-shadow: 0 -5px 40px #00000029;
 }
 
 .footer .container {
@@ -473,6 +781,10 @@ html, body {
     font-family: var(--font-second);
     font-weight: normal;
     color: var( --color-grey) ;
+}
+
+.footer-icons {
+    text-decoration: none;
 }
 
 .footer-twitter-icon {
