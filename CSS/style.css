@@ -38,11 +38,13 @@ html, body {
 
 .header {
     box-shadow: 0 3px 6px #00000029;
+    background: var(--color-white);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 70px;
+    z-index: 10;
 }
 
 .header .container {
@@ -222,7 +224,7 @@ html, body {
 }
 
 .stats-img {
-    z-index: 10000;
+    z-index: 1;
 }
 
 .stats-img-first {
@@ -295,6 +297,7 @@ html, body {
     margin-right: 500px;
     height: 322px;
     position: relative;
+    z-index: 1;
 }
 
 .benefits-box-first-img {
@@ -303,7 +306,7 @@ html, body {
     height: 219px;
     background: url("../assets/Macbook.png") center/cover no-repeat;
     position: absolute;
-    z-index: 10000;
+    z-index: 1;
 }
 
 .benefits-box-first-shape {
@@ -334,6 +337,7 @@ html, body {
     width: 500px;
     height: 188px;
     position: relative;
+    z-index: 1;
 }
 
 .benefits-box-second-img {
@@ -342,7 +346,7 @@ html, body {
     height: 328px;
     background: url("../assets/iPhone.png") center/cover no-repeat;
     position: absolute;
-    z-index: 10000;
+    z-index: 1;
 }
 
 .benefits-box-second-shape {
@@ -532,14 +536,13 @@ html, body {
     position: relative;
 }
 
-.price-box-second::after {
-    content: "Limited offer";
+.price-box-second-add {
     font-size: 12px;
     font-family: var(--font-second);
     color: var(--color-black);
     font-weight: bold;
     position: absolute;
-    top: 65px;
+    top: 135px;
     left: 165px;
 }
 
@@ -597,14 +600,13 @@ html, body {
     left: 110px;
 }
 
-.price-box-third:after {
-    content: "Limited offer";
+.price-box-third-add {
     font-size: 12px;
     font-family: var(--font-second);
     color: var(--color-black);
     font-weight: bold;
     position: absolute;
-    top: 65px;
+    top: 135px;
     left: 150px;
 }
 
@@ -699,9 +701,7 @@ html, body {
     margin-bottom: 30px;
     width: 100%;
     height: 40px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: 0;
     border-bottom: 1px solid var(--color-grey);
 }
 
